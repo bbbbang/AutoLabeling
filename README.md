@@ -1,2 +1,2 @@
 # AutoLabeling
-auto labeling using mmdetection
+auto labeling using tensorflow
