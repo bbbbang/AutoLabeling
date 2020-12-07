@@ -11,10 +11,20 @@ auto labeling using tensorflow
 
 ### how to use
 in anaconda terminal, excute VideoLabel.py python file with some commands.
+
 example)
 
 python VideoLabel.py --video_path [dir] --output_path [dir]
   
   
 ### dataset format
-this code generates only coco style annotation file. and you can't use this code for generate segmentation info. only Bbox
+this code generates only coco style annotation file.
+
+and you can't use this code for generate segmentation info.
+
+only Bbox available.
+
+
+
+### model
+i tested on mobilenet ssd v2 and faster rcnn resnet50. you can download pre-trained models at tensorflow 1 model zoo[https://www.google.com]
