@@ -27,4 +27,4 @@ only Bbox available.
 
 
 ### model
-i tested on mobilenet ssd v2 and faster rcnn resnet50. you can download pre-trained models at tensorflow 1 model zoo[https://www.google.com]
+i tested on mobilenet ssd v2 and faster rcnn resnet50. you can download pre-trained models at tensorflow 1 model zoo[https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md]
