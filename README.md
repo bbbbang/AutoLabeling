@@ -12,7 +12,8 @@ auto labeling using tensorflow
 ### how to use
 in anaconda terminal, excute VideoLabel.py python file with some commands.
 example)
-| python VideoLabel.py --video_path <dir> --output_path <dir>
+
+python VideoLabel.py --video_path [dir] --output_path [dir]
   
   
 ### dataset format
