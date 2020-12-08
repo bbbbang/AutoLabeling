@@ -1,6 +1,7 @@
 # AutoLabeling
 auto labeling using tensorflow
 
+this is for making custom dataset with own video or images
 - - -
 
 ### dependencies
