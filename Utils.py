@@ -3,10 +3,11 @@ import numpy as np
 import random
 import colorsys
 import tensorflow as tf
-def PreprocessImage(image, imageSize=(320,320)):
+
+
+def PreprocessImage(image):
 
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    image = cv2.resize(image, imageSize)
     image = np.array(image, dtype='float32')
     image = np.expand_dims(image, 0)
 
