@@ -11,12 +11,13 @@ this is for making custom dataset with own video or images
 
 
 ### how to use
-in anaconda terminal, excute VideoLabel.py python file with some commands.
+in anaconda terminal, excute VideoLabel.py or ImageLabel.py python file with some commands.
 
 example)
 
-python VideoLabel.py --video_path [dir] --output_path [dir]
-  
+python VideoLabel.py --video_path [dir] --output_path [dir] --model_path [dir] --bbox
+
+python ImageLabel.py --video_path [dir] --output_path [dir] --model_path [dir] --bbox
   
 ### dataset format
 this code generates only coco style annotation file.
