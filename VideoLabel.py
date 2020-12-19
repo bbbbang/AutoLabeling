@@ -64,11 +64,10 @@ if __name__ == '__main__':
                 frameData = PreprocessImage(frame)
                 outScores, outBoxes, outClasses = Detection(frameData, sess)
 
-                bboxImage = DrawBoxes(frame, imageID, objectID, jsonAnnotations, outScores, outBoxes, outClasses, category, colors)
-                
                 cv2.imwrite(outputPath + '/' + str(frameCount) + '.jpg', frame)
 
                 if bboxFlag == True:
+                    bboxImage = DrawBoxes(frame, imageID, objectID, jsonAnnotations, outScores, outBoxes, outClasses, category, colors)
                     os.makedirs(outputPath + '/bbox_images', exist_ok=True)
                     cv2.imwrite(outputPath + '/bbox_images/' + str(frameCount) + '.jpg', bboxImage)
 
